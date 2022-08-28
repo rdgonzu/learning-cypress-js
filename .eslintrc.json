@@ -1,0 +1,33 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["airbnb-base", "plugin:cypress/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 13,
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "no-trailing-spaces": 2,
+    "semi": [2, "never"],
+    "no-tabs": "off",
+    "no-console": "error",
+    "import/extensions": "off",
+    "object-curly-newline": "off",
+    "spaced-comment": ["error", "always"],
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "comments": 120,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreRegExpLiterals": true
+      }
+    ],
+    "arrow-body-style": ["error", "always"],
+    "no-unused-expressions": "off"
+  }
+}
