@@ -1,0 +1,30 @@
+{
+  "name": "learning-cypress-js",
+  "version": "1.0.0",
+  "description": "Basic and quick introduction to UI end to end testing automation with Cypress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "test:headless": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdgonzu/learning-cypress-js.git"
+  },
+  "author": "René González",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdgonzu/learning-cypress-js/issues"
+  },
+  "homepage": "https://github.com/rdgonzu/learning-cypress-js#readme",
+  "dependencies": {
+    "cypress": "^10.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.7.1"
+  }
+}
